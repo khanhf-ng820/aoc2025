@@ -15,6 +15,7 @@ try:
 				dial = (dial + int(line[1:])) % 100
 			if dial == 0:
 				password += 1
+	
 	print(f"The password is: {password}")
 except Exception as e:
-    print(f"An error occurred: {e}")
+	print(f"An error occurred: {e}")
