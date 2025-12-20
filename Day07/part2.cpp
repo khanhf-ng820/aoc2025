@@ -40,7 +40,7 @@ int main() {
 
 	long long int result = 0;
 	for (const long long int& t : tachyon) {
-		result += (long long int)t;
+		result += t;
 	}
 
 
