@@ -1,5 +1,5 @@
 filepath = "input.txt"
-
+# SOLUTION IS NOT TOO EFFICIENT
 
 
 red = []
