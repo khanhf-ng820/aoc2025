@@ -20,7 +20,7 @@ with open(filepath, 'r') as file:
 		buttons = components[1:-1]
 		buttons = list(map(lambda x : list(map(int, x[1:-1].split(','))), buttons))
 
-		# DFS
+		# ----- BFS -----
 		N = len(goal)
 		q = Queue()
 		distance = dict()
