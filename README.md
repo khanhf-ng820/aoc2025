@@ -12,4 +12,4 @@ I was working on a solution that solves **any arbitrary input** (file ```part1al
 
 The file ```part1alt.py``` contains the backtracking solution that works for **any arbitrary input**, but takes an extremely long time to run, even for small inputs. You can ignore it if you want.
 
-*IMO, I don't really like Day 12, but because the generalized problem is NP-hard, it's interesting to think outside the box and guess interesting properties of the puzzle input instead of brute-forcing everything.*
+*IMO, I don't really like Day 12 (I got spoiled lol), but because the generalized problem is NP-hard, it's interesting to think outside the box and guess interesting properties of the puzzle input instead of brute-forcing everything.*
