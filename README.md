@@ -13,3 +13,5 @@ I was working on a solution that solves **any arbitrary input** (file ```part1al
 The file ```part1alt.py``` contains the backtracking solution that works for **any arbitrary input**, but takes an extremely long time to run, even for small inputs. You can ignore it if you want.
 
 *IMO, I don't really like Day 12 (I got spoiled lol), but because the generalized problem is NP-hard, it's interesting to think outside the box and guess interesting properties of the puzzle input instead of brute-forcing everything.*
+
+*Here's a [funny meme](https://www.reddit.com/r/adventofcode/comments/1pko57s/2025_day_12_back_to_the_memes/) I saw about Day 12.*
