@@ -6,8 +6,10 @@ My solutions **(and explanations, if possible)** for Advent of Code 2025. The so
 ```bash
 pip install pulp
 ```
-- For Part 1 of Day 12 *(even though there's no problem to solve in Part 2)*, ```part1.py``` contains the alternate solution for the problem (using the area trick), which works for your puzzle input. But ***IT IS NOT GUARANTEED TO WORK*** for any arbitrary input of the problem, or the [example input](https://adventofcode.com/2025/day/12).
+- For Part 1 of Day 12 *(even though there's no problem to solve in Part 2)*, ```part1.py``` contains the solution for the problem (using the area trick), which works for your puzzle input. But ***IT IS NOT GUARANTEED TO WORK*** for **any arbitrary input** of the problem, or even the [example input](https://adventofcode.com/2025/day/12).
 
-I was working on a solution that solves any arbitrary input (file ```part1alt.py```, but after some further digging, it turned out this problem is **NP-hard**, so such a solution (that doesn't use approximations, heuristics) has a huge runtime complexity. You can safely ignore the file ```part1alt.py```.
+I was working on a solution that solves any arbitrary input (file ```part1alt.py```), but after some further digging, it turned out this problem is **NP-hard**, so such a solution (that doesn't use approximations or heuristics) has a huge runtime complexity.
+
+The file ```part1alt.py``` contains the backtracking solution that works for **any arbitary input**, but takes an extremely long time to run, even for small inputs. You can ignore it if you want.
 
 *IMO, I don't really like Day 12, but because the generalized problem is NP-hard, it's interesting to think outside the box and guess interesting properties of the puzzle input instead of brute-forcing everything.*
