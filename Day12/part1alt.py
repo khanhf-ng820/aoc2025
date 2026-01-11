@@ -4,7 +4,7 @@ import copy
 
 
 
-filepath = "input.txt"
+filepath = "test.txt"
 
 
 def rotate90(matrix):
@@ -231,8 +231,7 @@ with open(filepath, 'r') as file:
 			)
 			visited.clear()
 			backtrack(state)
-			# solutionExists = 9 * sum(requirements) <= x*y
-			print(len(visited))
+			# print(len(visited))
 
 			if solutionExists:
 				print("SOLUTION EXISTS")
